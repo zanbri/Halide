@@ -1599,6 +1599,7 @@ TEST_APPS=\
 	local_laplacian \
 	nl_means \
 	resize \
+	resize_2ch \
 	stencil_chain \
 	wavelet \
 
