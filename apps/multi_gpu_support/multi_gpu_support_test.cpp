@@ -154,7 +154,7 @@ int main(int argc, char **argv) {
         
         // Run on device 1
         input.set_host_dirty();
-        multi_gpu_support(user_context2, input, output1);
+        multi_gpu_support(user_context1, input, output1);
         output1.copy_to_host();
         
         // Run on device 2
